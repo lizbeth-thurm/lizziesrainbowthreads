@@ -1,55 +1,19 @@
-import logo from "./LOGO.jpg";
 import "./App.css";
-
-function useScrollDirection() {
-  const [scrollDirection, setScrollDirection] = useState(null);
-
-  useEffect(() => {
-    let lastScrollY = window.pageYOffset;
-
-    const updateScrollDirection = () => {
-      const scrollY = window.pageYOffset;
-      const direction = scrollY > lastScrollY ? "down" : "up";
-      if (
-        direction !== scrollDirection &&
-        (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)
-      ) {
-        setScrollDirection(direction);
-      }
-      lastScrollY = scrollY > 0 ? scrollY : 0;
-    };
-    window.addEventListener("scroll", updateScrollDirection); // add event listener
-    return () => {
-      window.removeEventListener("scroll", updateScrollDirection); // clean up
-    };
-  }, [scrollDirection]);
-
-  return scrollDirection;
-}
-
-// header component
-function Header() {
-  const scrollDirection = useScrollDirection();
-  
-  return (
-    <div className={`header ${ scrollDirection === "down" ? "hide" : "show"}`}>
-      <div>Disappearing Header</div>
-    </div>
-  );
-};
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-<p>ABOUT</p>
-<p>LINKS</p>
-<p>CONTACT</p>
-      </header>
-      <body className="App-body">
-        <p>Welcome to my site</p>
-      </body>
+      <Header />
+      <div className="App-main">
+        <h1>Lizzie's Rainbow Threads</h1>
+        <h3>Pride-Themed Accessories and Apparel</h3>
+        <h3>Custom Tailoring and Alterations Specializing in Clothes for Trans People!</h3>
+        <h2 className="about">ABOUT</h2>
+        <h2 className="social">SOCIAL</h2>
+        <h2 className="contact">CONTACT</h2>
+      </div>
     </div>
   );
 }

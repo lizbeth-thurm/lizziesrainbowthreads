@@ -1,19 +1,28 @@
-.App {
-  text-align: center;
- background-color: black;
+.App-logo {
+  height: 100%;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.App-main {
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
   background-color: black;
-  color: white;
+  height: 6rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  padding: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.about{
+.App-header.down {
+  top: -6rem;
+}
+
+.Header-1 {
   font-size: 1.5rem;
   font-weight: 600;
   padding: 10px;
@@ -21,7 +30,7 @@
   text-shadow: 2px 2px 4px orange;
 }
 
-.social {
+.Header-2 {
   font-size: 1.5rem;
   font-weight: 600;
   padding: 10px;
@@ -29,7 +38,7 @@
   text-shadow: 2px 2px 4px lime;
 }
 
-.contact{
+.Header-3 {
   font-size: 1.5rem;
   font-weight: 600;
   padding: 10px;
