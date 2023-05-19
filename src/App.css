@@ -13,12 +13,34 @@
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.Home-intro {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pride_flag {
+  border: 5px solid white;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .about{
   font-size: 1.5rem;
   font-weight: 600;
   padding: 10px;
   color: red;
   text-shadow: 2px 2px 4px orange;
+}
+
+.email_add{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .social {
