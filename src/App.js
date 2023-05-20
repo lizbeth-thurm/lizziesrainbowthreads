@@ -29,7 +29,8 @@ function App() {
             <p>Hello and welcome to Lizzie's Rainbow Threads!</p>
             <p>
               My name is Lizzie (She/Her) - I am a seamstress from Arkansas and
-              my goal is to spark queer joy through fashion!
+              my goal is to spark joy through fashion!  I believe that fashion can
+              be liberating! (and fun)
             </p>
             <p>
               Lizzie's Rainbow Threads offers the following products and
