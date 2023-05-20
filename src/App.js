@@ -67,13 +67,13 @@ function App() {
             />
           </a>
           <div className="insta_icon">
-          <a href="https://www.instagram.com/lizziesrainbowthreads/">
-            <img
-              src={instagram}
-              className="icon"
-              alt="Instagram: lizziesrainbowthreads"
-            />
-          </a>
+            <a href="https://www.instagram.com/lizziesrainbowthreads/">
+              <img
+                src={instagram}
+                className="icon"
+                alt="Instagram: lizziesrainbowthreads"
+              />
+            </a>
           </div>
           <a href="https://www.pinterest.com/lizziesrainbowthreads">
             <img src={pinterest} className="icon" alt="My Pinterest" />
