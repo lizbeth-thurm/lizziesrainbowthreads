@@ -2,11 +2,11 @@ import "./App.css";
 import React from "react";
 import Header from "./components/Header";
 import pride_flag from "./pride_flag.png";
-import etsy from "./icons/etsy.svg";
-import facebook from "./icons/facebook.svg";
-import instagram from "./icons/instagram.svg";
-import pinterest from "./icons/pinterest.svg";
-import twitter from "./icons/twitter.svg";
+import etsy from "./icons/etsy.png";
+import facebook from "./icons/facebook.png";
+import instagram from "./icons/instagram.png";
+import pinterest from "./icons/pinterest.png";
+import twitter from "./icons/twitter.png";
 import mailz from "./mail.gif";
 
 function App() {
@@ -29,8 +29,8 @@ function App() {
             <p>Hello and welcome to Lizzie's Rainbow Threads!</p>
             <p>
               My name is Lizzie (She/Her) - I am a seamstress from Arkansas and
-              my goal is to spark joy through fashion!  I believe that fashion can
-              be liberating! (and fun)
+              my goal is to spark joy through fashion! I believe that fashion
+              can be liberating! (and fun)
             </p>
             <p>
               Lizzie's Rainbow Threads offers the following products and
@@ -67,15 +67,13 @@ function App() {
               alt="Lizzie's Rainbow Threads Facebook Business Page"
             />
           </a>
-          <div className="insta_icon">
-            <a href="https://www.instagram.com/lizziesrainbowthreads/">
-              <img
-                src={instagram}
-                className="icon"
-                alt="Instagram: lizziesrainbowthreads"
-              />
-            </a>
-          </div>
+          <a href="https://www.instagram.com/lizziesrainbowthreads/">
+            <img
+              src={instagram}
+              className="icon"
+              alt="Instagram: lizziesrainbowthreads"
+            />
+          </a>
           <a href="https://www.pinterest.com/lizziesrainbowthreads">
             <img src={pinterest} className="icon" alt="My Pinterest" />
           </a>

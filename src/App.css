@@ -71,17 +71,13 @@
   justify-content: center;
 }
 
-.insta_icon {
-width: 300px;
-}
-
 .icon {
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding: 10px;
+  width: 100px;
+  padding: 20px;
 }
 
 ul {
