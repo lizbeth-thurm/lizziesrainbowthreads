@@ -17,6 +17,10 @@ function App() {
         <div className="Home-intro">
           <h1>Lizzie's Rainbow Threads</h1>
           <h4>WELCOME - I'm working on the site right now!!  Sorry it's incomplete - updates coming very soon! -July 22 2023</h4>
+          <h4>Follow this link if you want to contact me with options to commission, order tailoring services, or helping with charitable work!</h4>
+          <a href="https://bit.ly/contactlizzy"> CONTACT FORM
+          </a>
+          <h4> </h4>
           <img src={pride_flag} className="pride_flag" alt="Gay Pride Flag" />
           <h3>
             Pride-Themed Accessories and Apparel - Custom Tailoring and
